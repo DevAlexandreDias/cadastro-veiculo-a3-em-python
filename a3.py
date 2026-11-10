@@ -77,6 +77,9 @@ class ItemVenda:
     def subtotal(self):
         # Valor desta linha = preço unitário x quantidade
         return self.preco_unitario * self.quantidade
+# O decorador @property em Python serve para transformar um método de uma classe em um atributo gerenciado. 
+# Na prática, ele permite que você execute códigos (como validações ou cálculos) ao ler, modificar ou deletar o valor de um atributo, 
+# mas mantendo uma sintaxe limpa de acesso direto — sem precisar chamar métodos com parênteses (como .get_x() ou .set_x())
 
 
 class Venda:
